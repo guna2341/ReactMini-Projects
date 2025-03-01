@@ -1,0 +1,52 @@
+.view-container {
+  display: flex;
+  height: 100vh;
+  background-color: #121212;
+  color: #fff;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #222;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border-right: 2px solid #333;
+}
+
+.nav-item {
+  padding: 12px 16px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  text-align: center;
+  background-color: #222;
+  color: #bbb;
+}
+
+.nav-item.active {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Remove padding to avoid gaps */
+}
+
+.component-container {
+  width: 100%; /* Ensure it extends fully */
+  height: 100vh; /* Match full viewport height */
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 0px; /* Remove border-radius if needed */
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

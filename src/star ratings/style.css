@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.star-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.star-container svg {
+  font-size: 40px;
+  margin: 5px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.star-container svg:hover {
+  transform: scale(1.2);
+}
+
+.active {
+  color: gold;
+}
+
+.inactive {
+  color: #ccc;
+}
